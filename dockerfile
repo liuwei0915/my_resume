@@ -8,6 +8,7 @@ WORKDIR /usr/local/apache2/htdocs
 COPY index.html .                               
 
 # Add in other directives as needed
-# LABEL maintainer:"Steven.Fitzgerald@csun.edu"
+MAINTAINER Steven.Fitzgerald@csun.edu
+EXPOSE 80
 # RUN
 # EXEC
